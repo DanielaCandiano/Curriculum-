@@ -1,0 +1,200 @@
+{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+figure,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #00000067;
+    background-image: url(img/Fondo-Pantalla.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:  'Yeseva One', cursive;
+    color:#2C4946
+}
+
+
+
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1% 15px;
+    text-align: center;
+    align-items: center;
+    
+    
+    
+   
+}
+header {
+    margin: -17px;
+     background-color:#F0E9DB
+     
+     }
+h1{
+    color: #2C4946 ;  
+    font-family:  'Yeseva One', cursive;
+}
+nav ul li a{
+    color: #2C4946 ;  
+    font-family:'Work Sans', sans-serif;  
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: crimson;
+}
+h2{
+    color: #2C4946 ;  
+    font-family: 'Yeseva One', cursive;
+    
+}
+section h2{
+    color: #2C4946 ;  
+    
+    
+}
+h3{
+    color: #2C4946;
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    margin: 20px;
+}
+section h3{
+    color: #2C4946 ;  
+    text-align: center;
+    
+}
+p{
+    color: #2C4946 ;  
+    font-family:'Work Sans', sans-serif;  
+}
+section p{
+    font-family:'Work Sans', sans-serif; 
+}
+h3{
+    color: #2C4946 ;  
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#sobremi {
+    
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+
+#sobremi article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.info {
+    width: 390px;
+    margin-top: 50px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexbox figure{
+    text-align: center;
+}
+
+.flexbox figure figcaption{
+    font-size: 14px;
+}
+
+.info h3{
+   /* text-indent: -9999999px;*/
+   font-size: 0;
+    background-image:url(img/github.svg);    
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 300px;
+    text-align: center;
+}
+
+
+#portfolio {
+    
+   
+    width: 1200px;
+    padding: 1% 15px;
+    
+    
+    
+}
+
+#portfolio article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#programas{
+    margin-top: 20px;
+    background-color: #F0E9DB
+    
+}
+
+footer {
+    background-position: -100px;
+    color: #2C4946 ; 
+    text-align: center;
+}
+
+.ilustracion img{
+    max-width: 100%;
+    height: auto;
+}
+.dg1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dg1 figure{
+    width: 360px;
+}
+.dg1 figure img{
+    max-width: 100%;
+    height: auto;
+}
+.datos-personales {
+    
+    padding: 20px;
+    border-radius: 5px;
+    width: 750px;
+}
+
+figcaption{
+    font-family: 'Work Sans', sans-serif; 
+     color: #2C4946 ; 
+
+}
